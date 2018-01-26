@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .menuIcon {
+                width: 35px;
+                height: 5px;
+                background-color: white;
+                margin: 10px 10px;
+            }
+            
+            .topnav {
+                overflow: hidden;
+                background-color: #CECECE;
+                padding: 20px 20px 20px 20px;
+            }
+
+            .topnav-left {
+                float: left;
+            }
+            
+            .topnav-right {
+                float: right;
+            }
+            
+            img {
+                border-radius: 50%;
+            }
+            
+            body {
+                background-color: #7C5489;
+                margin: 0;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Create two equal columns that floats next to each other */
+            .column {
+                float: left;
+                width: 50%;
+                padding: 10px;
+                height: 300px; /* Should be removed. Only for demonstration */
+                text-align: center;
+                margin-top: 30px
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            h2 {
+                font-size: 40px;
+                color: #D9D9D9;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="topnav">
+            <div class="topnav-left">
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+            </div>
+            
+            <div class="topnav-right">
+                <img src="Wireframe/Images/mia.jpg" alt="Profile" width="60" height="60">
+            </div>
+        </div>
+        
+        <div>
+            <div class="row">
+                <div class="column">
+                    <img src="Wireframe/Images/dietaryguideline.jpg" alt="Dietary" width="300" height="300">
+                    <h2>Dietary Guidelines</h2>
+                </div>
+                <div class="column">
+                    <img src="Wireframe/Images/exercise.jpeg" alt="Exercise" width="300" height="300">
+                    <h2>Exercise Goals</h2>
+                </div>
+                <div class="column" style="margin-top: 190px">
+                    <img src="Wireframe/Images/directory.jpg" alt="Directory" width="300" height="300">
+                    <h2>Directory</h2>
+                </div>
+                <div class="column" style="margin-top: 190px">
+                    <img src="Wireframe/Images/articles.jpeg" alt="Articles" width="300" height="300">
+                    <h2>Health Articles</h2>
+                </div>
+                <div class="column" style="margin-top: 200px">
+                    <img src="Wireframe/Images/evnt.jpeg" alt="Event" width="300" height="300">
+                    <h2>Events</h2>
+                </div>
+                <div class="column" style="margin-top: 200px">
+                    <img src="Wireframe/Images/quiz.png" alt="Quiz" width="300" height="300">
+                    <h2>Quiz</h2>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
