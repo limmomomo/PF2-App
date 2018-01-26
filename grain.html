@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+         .menuIcon {
+                width: 35px;
+                height: 5px;
+                background-color: white;
+                margin: 10px 10px;
+            }
+            
+            .topnav {
+                overflow: hidden;
+                background-color: #CECECE;
+                padding: 20px 20px 20px 20px;
+            }
+
+            .topnav-left {
+                float: left;
+            }
+            
+            .topnav-right {
+                float: right;
+            }
+            
+            .profile {
+                border-radius: 50%;
+            }
+            
+            .profile {
+                border-radius: 50%;
+            }
+            
+            body {
+                background-color: #7C5489;
+                margin: 0;
+            }
+        
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 60px;
+            }
+            
+            .centeredRcm {
+                background-color: #496E54;
+                padding: 50px 50px 50px 50px;
+                font-size: 60px;
+                text-align: center;
+                color: white;
+            }
+            
+            .centeredAvd {
+                background-color: #723636;
+                padding: 50px 50px 50px 50px;
+                font-size: 60px;
+                text-align: center;
+                color: white;
+            }
+            
+            .centeredContent {
+                font-size: 30px;
+            }
+            
+            p {
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                padding: 40px 40px 40px 40px;
+                margin: 40px 40px 40px 40px
+            }
+            
+            .content {
+                border-radius: 20%;
+                padding: 30px 30px 30px 30px;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Create two equal columns that floats next to each other */
+            .column {
+                float: left;
+                width: 50%;
+                padding: 0px;
+                height: 300px; /* Should be removed. Only for demonstration */
+                text-align: center;
+                margin-top: 0px;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div class="topnav">
+            <div class="topnav-left">
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+            </div>
+            
+            <div class="topnav-right">
+                <img src="Wireframe/Images/mia.jpg" alt="Profile" class="profile" width="60" height="60">
+            </div>
+        </div>
+    
+        <div class="container">
+            <img src="Wireframe/Images/grains.jpg" alt="Grain" height="320px" style="width:100%; opacity:0.4;">
+            <div class="centered">Grains</div>
+        </div>
+        
+        <p>Any food made from wheat, rice, oats, cornmeal, barley or another cereal grain is a grain product.Grains are divided into 2 subgroups, Whole Grains and Refined Grains. Most grains contain B-group vitamins, iron and dietary fibre.</p>
+
+        <div class="containerRcm">
+            <div class="centeredRcm">Recommended</div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="Wireframe/Images/grainbread.jpg" alt="Grain Bread" class="content" height="400px" style="width:100%;">
+                    <div class="centeredContent">Whole Grain Bread</div>
+                </div>
+            </div>
+            
+            <div class="column">
+                    <div class="container">
+                        <img src="Wireframe/Images/brownrice.jpg" alt="Brown Rice" class="content" height="400px" style="width:100%;">
+                        <div class="centeredContent">Brown Rice</div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="containerAvd" style="margin-top:150px">
+            <div class="centeredAvd">Avoid</div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="Wireframe/Images/whitebread.jpg" alt="White Bread" class="content" height="400px" style="width:100%;">
+                    <div class="centeredContent">White Bread</div>
+                </div>
+            </div>
+            
+            <div class="column">
+                    <div class="container">
+                        <img src="Wireframe/Images/whiterice.jpg" alt="White Rice" class="content" height="400px" style="width:100%;">
+                        <div class="centeredContent">White Rice</div>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>

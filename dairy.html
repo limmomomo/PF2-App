@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+         .menuIcon {
+                width: 35px;
+                height: 5px;
+                background-color: white;
+                margin: 10px 10px;
+            }
+            
+            .topnav {
+                overflow: hidden;
+                background-color: #CECECE;
+                padding: 20px 20px 20px 20px;
+            }
+
+            .topnav-left {
+                float: left;
+            }
+            
+            .topnav-right {
+                float: right;
+            }
+            
+            .profile {
+                border-radius: 50%;
+            }
+            
+            .profile {
+                border-radius: 50%;
+            }
+            
+            body {
+                background-color: #7C5489;
+                margin: 0;
+            }
+        
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 60px;
+            }
+            
+            .centeredRcm {
+                background-color: #496E54;
+                padding: 50px 50px 50px 50px;
+                font-size: 60px;
+                text-align: center;
+                color: white;
+            }
+            
+            .centeredAvd {
+                background-color: #723636;
+                padding: 50px 50px 50px 50px;
+                font-size: 60px;
+                text-align: center;
+                color: white;
+            }
+            
+            .centeredContent {
+                font-size: 30px;
+            }
+            
+            p {
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                padding: 40px 40px 40px 40px;
+                margin: 40px 40px 40px 40px
+            }
+            
+            .content {
+                border-radius: 20%;
+                padding: 30px 30px 30px 30px;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Create two equal columns that floats next to each other */
+            .column {
+                float: left;
+                width: 50%;
+                padding: 0px;
+                height: 300px; /* Should be removed. Only for demonstration */
+                text-align: center;
+                margin-top: 0px;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div class="topnav">
+            <div class="topnav-left">
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+            </div>
+            
+            <div class="topnav-right">
+                <img src="Wireframe/Images/mia.jpg" alt="Profile" class="profile" width="60" height="60">
+            </div>
+        </div>
+    
+        <div class="container">
+            <img src="Wireframe/Images/dairy.jpg" alt="Dairy" height="320px" style="width:100%; opacity:0.4;">
+            <div class="centered">Dairy</div>
+        </div>
+        
+        <p>Dairy mostly comtains calcium which helps in the maintainence of your bones. Dairy products include food items such as yogurt, cheese, and butter. Dairy products are high in potassium, comparable to potassium-rich foods. As an electrolyte, adequate potassium is crucial for your muscles and nerve cells to work properly; the Linus Pauling Institute reports that a diet high in potassium may also lower your risk of high blood pressure, which can help prevent heart disease.</p>
+
+        <div class="containerRcm">
+            <div class="centeredRcm">Recommended</div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="Wireframe/Images/skimmilk.jpg" alt="Skim Milk" class="content" height="400px" style="width:100%;">
+                    <div class="centeredContent">Skim Milk</div>
+                </div>
+            </div>
+            
+            <div class="column">
+                    <div class="container">
+                        <img src="Wireframe/Images/yogurt.png" alt="Nonfat Yogurt" class="content" height="400px" style="width:100%;">
+                        <div class="centeredContent">Nonfat Yogurt</div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="containerAvd" style="margin-top:150px">
+            <div class="centeredAvd">Avoid</div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="Wireframe/Images/cheese.jpeg" alt="Cheese" class="content" height="400px" style="width:100%;">
+                    <div class="centeredContent">Full Fat Cheese</div>
+                </div>
+            </div>
+            
+            <div class="column">
+                    <div class="container">
+                        <img src="Wireframe/Images/fatmilk.jpg" alt="Fat Milk" class="content" height="400px" style="width:100%;">
+                        <div class="centeredContent">Full Fat Milk</div>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
