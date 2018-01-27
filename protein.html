@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+         .menuIcon {
+                width: 35px;
+                height: 5px;
+                background-color: white;
+                margin: 10px 10px;
+            }
+            
+            .topnav {
+                overflow: hidden;
+                background-color: #CECECE;
+                padding: 20px 20px 20px 20px;
+            }
+
+            .topnav-left {
+                float: left;
+            }
+            
+            .topnav-right {
+                float: right;
+            }
+            
+            .profile {
+                border-radius: 50%;
+            }
+            
+            .profile {
+                border-radius: 50%;
+            }
+            
+            body {
+                background-color: #7C5489;
+                margin: 0;
+            }
+        
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 60px;
+            }
+            
+            .centeredRcm {
+                background-color: #496E54;
+                padding: 50px 50px 50px 50px;
+                font-size: 60px;
+                text-align: center;
+                color: white;
+            }
+            
+            .centeredAvd {
+                background-color: #723636;
+                padding: 50px 50px 50px 50px;
+                font-size: 60px;
+                text-align: center;
+                color: white;
+            }
+            
+            .centeredContent {
+                font-size: 30px;
+            }
+            
+            p {
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                padding: 40px 40px 40px 40px;
+                margin: 40px 40px 40px 40px
+            }
+            
+            .content {
+                border-radius: 20%;
+                padding: 30px 30px 30px 30px;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Create two equal columns that floats next to each other */
+            .column {
+                float: left;
+                width: 50%;
+                padding: 0px;
+                height: 300px; /* Should be removed. Only for demonstration */
+                text-align: center;
+                margin-top: 0px;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div class="topnav">
+            <div class="topnav-left">
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+            </div>
+            
+            <div class="topnav-right">
+                <img src="Wireframe/Images/mia.jpg" alt="Profile" class="profile" width="60" height="60">
+            </div>
+        </div>
+    
+        <div class="container">
+            <img src="Wireframe/Images/proteins.jpg" alt="Proteins" height="320px" style="width:100%; opacity:0.4;">
+            <div class="centered">Proteins</div>
+        </div>
+        
+        <p>Protein is found throughout the body—in muscle, bone, skin, hair, and virtually every other body part or tissue. It makes up the enzymes that power many chemical reactions and the hemoglobin that carries oxygen in your blood. Lack of protein can cause growth failure, loss of muscle mass, decreased immunity, weakening of the heart and respiratory system, and death. So it is important to consume the right amount for a healthy diet.</p>
+
+        <div class="containerRcm">
+            <div class="centeredRcm">Recommended</div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="Wireframe/Images/fattyfish.jpg" alt="Fish" class="content" height="400px" style="width:100%;">
+                    <div class="centeredContent">Fatty Fish</div>
+                </div>
+            </div>
+            
+            <div class="column">
+                    <div class="container">
+                        <img src="Wireframe/Images/eggs.jpg" alt="Eggs" class="content" height="400px" style="width:100%;">
+                        <div class="centeredContent">Eggs</div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="containerAvd" style="margin-top:150px">
+            <div class="centeredAvd">Avoid</div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="Wireframe/Images/sausage.jpg" alt="Sausage" class="content" height="400px" style="width:100%;">
+                    <div class="centeredContent">Sausages</div>
+                </div>
+            </div>
+            
+            <div class="column">
+                    <div class="container">
+                        <img src="Wireframe/Images/turkey.jpeg" alt="Turkey" class="content" height="400px" style="width:100%;">
+                        <div class="centeredContent">Turkey</div>
+                    </div>
+                </div>
+        </div>
+
+    </body>
+</html>

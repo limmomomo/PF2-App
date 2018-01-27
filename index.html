@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <style> 
+            form {
+                margin-left: 170px;
+                margin-right: 170px;
+            }
+
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 40px 20px;
+                margin: 0px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+
+            button {
+                background-color: #CECECE;
+                color: #403F3F;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 50%;
+                opacity: 0.5;
+                float:
+            }
+
+            button:hover {
+                opacity: 0.5;
+            }
+
+            .cancelbtn, .signupbtn {
+                float: left;
+                width: 50%;
+                font-size: 20px;
+            }
+
+            .container {
+                padding: 16px;
+                font-size: 20px;
+            }
+
+            span.usr {
+                float: right;
+                padding-top: 16px;
+            }
+            
+            body {
+                background-color: #7C5489;
+                margin-top: 400px;
+            }
+
+            /* Change styles for span and cancel button on extra small screens */
+            @media screen and (max-width: 300px) {
+                span.usr {
+                    display: block;
+                    float: none;
+                }
+                
+                .cancelbtn {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    
+    <body> 
+        <h1 style="text-align:center; color:white; font-size: 70px;"> Sign Up</h1>
+        <form action="action_page.php">
+            <div class="container">
+                <input style="border-top-left-radius: 20px; border-top-right-radius: 20px; font-size:25px;" type="text" placeholder="Enter Username" name="uname" required>
+               
+                <input style="font-size:25px;" type="text" placeholder="Enter Email" name="email" required>
+
+                <input style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; font-size:25px;" type="password" placeholder="Enter Password" name="psw" required>
+
+                <div class="clearfix">
+                    <button style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;" type="button" class="cancelbtn">Cancel</button>
+                    <button style="border-top-right-radius: 15px; border-bottom-right-radius: 15px;" type="submit" class="signupbtn">Sign Up</button>
+                </div>
+                <br>
+                <label>
+                    <input type="checkbox" checked="checked"> Remember me
+                </label>
+                <span style="font-size:20px;" class="usr"><a href="#">Sign in</a></span>
+            </div>
+            
+            <p style="font-size: 20px;">By creating an account you agree to our <a   href="#" style="color:dodgerblue">Terms & Privacy</a>.</p> 
+        </form>
+        
+    </body>
+</html>
