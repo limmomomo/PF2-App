@@ -1,194 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="">
-
-    <title>Clinic Directory</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-
-    <!-- Custom styles for this template -->
-    <style type="text/css">
-        body {
-            background-color: #7c5489ff;
-        }
-        .col-sm-1{
-            border-radius: 100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 80px;
-            height: 80px;
-            color: black;
-            object-fit: cover;
-            float: left;
-            padding-left: 50px;
-        }
-        .col-sm-2{
-            border-radius: 100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 80px;
-            height: 80px;
-            color: white;
-            object-fit: cover;
-            float: left;
-            padding-left: 50px;
-        }
-        .col-sm-3{
-            border-radius: 100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 80px;
-            height: 80px;
-            color: black;
-            object-fit: cover;
-            float: left;
-            padding-left: 50px;
-        }
-        .col-sm-4{
-            border-radius: 100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 80px;
-            height: 80px;
-            color: white;
-            object-fit: cover;
-            float: left;
-            padding-left: 50px;
-        }
-        .col-sm-5{
-            border-radius: 100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 80px;
-            height: 80px;
-            color: black;
-            object-fit: cover;
-            float: left;
-            padding-left: 50px;
-        }
-        .title1 {
-            float:left;
-            padding-top: 10px;
-            padding-left: 100px;
-            width:200px;
-        }
-        
-    </style>
-</head>
-
-
-<body>
-
-    <nav>
-
-    </nav>
+<html>
+    <head>
+        <style>
+            .menuIcon {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 10px 10px;
+}
+            
+.topnav {
+    overflow: hidden;
+    background-color: #CECECE;
+    padding: 20px 20px 20px 20px;
+}
+.topnav-left {
+    float: left;
+}
+            
+.topnav-right {
+    float: right;
+}
+            
+.profile {
+    border-radius: 50%;
+}
+            
+body {
+    background-color: #7C5489;
+    margin: 0;
+}
+            
+* {
+    box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    text-align: center;
+    margin-top: 30px
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+            
+h2 {
+    font-size: 40px;
+    color: #D9D9D9;
+}
+            
+            p {
+                font-size: 30px;
+            }
+        </style>
+    </head>
     
-    <!-- /.container -->
-<div class="jumbotron">
-</div>
-    
-        <div class="col-sm-1">  
-            <img src="images/clinic1.png" style="width:300px;
-            border-radius:100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 100px;
-            height: 100px;
-            color: black;
-            object-fit: cover;
-            float: left;">
-      <box class="Step1">
-          <div class="title1"><p>Clinc 1</p></div>
-      </box>
-            </div>  
-        <br><br><br><br>
+    <body>
+        <div class="topnav">
+            <div class="topnav-left">
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+            </div>
+            
+            <div class="topnav-right">
+                <img src="Images/mia.jpg" alt="Profile" class="profile" width="60" height="60">
+            </div>
+        </div>
         
-        <div class="col-sm-2">
-        <img src="images/clinic2.png" style="width:300px;
-            border-radius:100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 100px;
-            height: 100px;
-            color: black;
-            object-fit: cover;
-            float: left;">
-      <box class="Step1">
-          <div class="title1"><p>Clinic 2</p></div>
-      </box>
-            </div>  
-        <br><br><br><br>
-        
-        <div class="col-sm-3">
-            <img src="images/clinic1.png" style="width:300px;
-            border-radius:100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 100px;
-            height: 100px;
-            color: black;
-            object-fit: cover;
-            float: left;">
-      <box class="Step1">
-          <div class="title1"><p>Clinic 3</p></div>
-      </box>
-            </div>  
-        <br><br><br><br>
-        
-        <div class="col-sm-4">
-            <img src="images/clinic1.png" style="width:300px;
-            border-radius:100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 100px;
-            height: 100px;
-            color: black;
-            object-fit: cover;
-            float: left;">
-      <box class="Step1">
-          <div class="title1"><p>Clinic 4</p></div>
-      </box>
-            </div>  
-        <br><br><br><br>
-        
-        <div class="col-sm-5">
-            <img src="images/clinic1.png" style="width:300px;
-            border-radius:100%;
-            text-align: center;
-            margin: auto;
-            padding: 10px; 
-            width: 100px;
-            height: 100px;
-            color: black;
-            object-fit: cover;
-            float: left;">
-      <box class="Step1">
-          <div class="title1"><p>Clinic 5</p></div>
-      </box>
-            </div>  
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src=“https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js“></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-
-
-</body>
+        <div>
+            <div class="row">
+                <div class="column">
+                    <img src="Images/clinic1.png" alt="Clinic 1" width="200" height="200" style = "border-radius: 100%;">
+                </div>
+                <div class="column">
+                    <h2>Clinic One</h2>
+                    <p>531 East Coast Road</p>
+                </div>
+                <div class="column">
+                    <img src="Images/clinic2.png" alt="Clinic 2" width="200" height="200" style = "border-radius: 100%;">
+                </div>
+                <div class="column">
+                    <h2>Clinic Two</h2>
+                    <p>Tampines Street 43</p>
+                </div>
+                <div class="column">
+                    <img src="Images/clinic3.jpg" alt="Clinic 3" width="200" height="200" style = "border-radius: 100%;">
+                </div>
+                <div class="column">
+                    <h2>Clinic Three</h2>
+                    <p>Bedok Avenue 4</p>
+                </div>
+                <div class="column">
+                    <img src="Images/clinic4.jpg" alt="Clinic 4" width="200" height="200" style = "border-radius: 100%;">
+                </div>
+                <div class="column">
+                    <h2>Clinic Four</h2>
+                    <p>Pasir Ris Avenue 3</p>
+                </div>
+                <div class="column">
+                    <img src="Images/clinic5.png" alt="Clinic 5" width="200" height="200" style = "border-radius: 100%;">
+                </div>
+                <div class="column">
+                    <h2>Clinic Five</h2>
+                    <p>Tampines Street 81</p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
